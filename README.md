@@ -1,12 +1,11 @@
 # Calculadora API (GQSO IFAL)
 
-Cada diretório nesse repositório implementa a calculadora em uma linguagem diferente.
+Nesse repositório utilizamos a linguagem de programação Java, com o intuito de facilitar o desenvolvimento do código.
 
 import java.util.Scanner;
 
-public class soma {
+public class calculadora {
 
-   
     public static void main(String[] args) 
     {
        int num1 = 0 , num2 = 0, resultado;
@@ -18,12 +17,12 @@ public class soma {
        
        System.out.println("Introduza o 2 numero");
        num2 = input.nextInt();
-             
-       resultado = num1 + num2;
-       
-       System.out.println(" O resultado é: " + resultado);
-             
-       
+       soma(num1, num2);
            }
+           
+     public static void soma (int num1, int num2) {
+         resultado = num1 + num2;
+         System.out.println(" O resultado é: " + resultado);
+     }
     
 }
