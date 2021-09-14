@@ -4,24 +4,24 @@ Cada diretório nesse repositório implementa a calculadora em uma linguagem dif
 
 import java.util.Scanner;
 
-public class Programa_soma {
+public class calculadora {
 
    
     public static void main(String[] args) 
     {
-       int x = 0 , y = 0, soma;
+       int num1 = 0 , num2 = 0, resultado;
       
-       Scanner s = new Scanner(System.in);
+       Scanner input = new Scanner(System.in);
        
        System.out.println("Introduza o 1 numero");
-       x = s.nextInt();
+       num1 = input.nextInt();
        
        System.out.println("Introduza o 2 numero");
-       y = s.nextInt();
+       num2 = input.nextInt();
              
-       soma = x+y;
+       resultado = num1 + num2;
        
-       System.out.println(" A soma é: " + soma);
+       System.out.println(" O resultado é: " + resultado);
              
        
            }
