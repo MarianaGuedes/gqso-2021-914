@@ -4,7 +4,7 @@ Cada diretório nesse repositório implementa a calculadora em uma linguagem dif
 
 import java.util.Scanner;
 
-public class calculadora {
+public class soma {
 
    
     public static void main(String[] args) 
